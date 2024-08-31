@@ -108,6 +108,17 @@ body {
 .nav-pills .nav-link {
 	color: #000
 }
+.nav-item span:hover {
+	background-color: #BEB45A;
+	color: #fff;
+	border-radius: 0;
+	cursor: pointer;
+}
+.nav-link.active-tag {
+	background-color: #BEB45A;
+	color: #fff;
+	border-radius: 0;
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
