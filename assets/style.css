@@ -83,10 +83,14 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 16px;
+	display: block;
+	text-align: justify;
 }
 #about-me p {
 	width: 80%;
 	font-size: 14px;
+	text-align: justify;
 }
 
 .gallery {
@@ -157,7 +161,9 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 40px;
+	text-align: justify;
+	line-height: 1.3;
 }
 .quote__author {
 	font-family: Spectral;
@@ -199,7 +205,13 @@ body {
 	justify-content: space-between;
 	z-index: 1;
 }
-
+.service p {
+	text-align: justify;
+}
+p em {
+	font-weight: 300;
+	font-size: 25px;
+}
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
