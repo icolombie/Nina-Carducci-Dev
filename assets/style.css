@@ -43,6 +43,9 @@ body {
 .nav a:focus {
 	color: #E5975F;
 }
+.nav a:active {
+	color: #E5975F;
+}
 .social-link img {
 	width: 20px;
 	transition: transform 0.3s, box-shadow 0.3s;
