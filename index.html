@@ -49,18 +49,18 @@
 <header>
 <div class="top-header">
 	<h1 class="name">Nina Carducci</h1>
-	<nav class="nav">   
-		<ul>
-			<li><a href="#about">À propos</a></li>
-			<li><a href="#gallery">Galerie</a></li>
-			<li><a href="#services">Service</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" title="Suivez-moi sur Instagram" target="_blank" rel="noopener"><img src="assets/images/instagram.webp" alt="logo Instagram" tabindex="0"></a></li>
+	<nav class="nav" role="navigation">   
+		<ul role="menubar">
+			<li role="none"><a href="#about" role="menuitem">À propos</a></li>
+			<li role="none"><a href="#gallery" role="menuitem">Galerie</a></li>
+			<li role="none"><a href="#services" role="menuitem">Service</a></li>
+			<li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+			<li role="none"><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" title="Suivez-moi sur Instagram" target="_blank" rel="noopener" role="menuitem"><img src="assets/images/instagram.webp" alt="logo Instagram" tabindex="0"></a></li>
 		</ul>
 	</nav>
 </div>
 <div id="header">
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" role="region" aria-label="carrousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -77,11 +77,11 @@
 				<img src="./assets/images/slider/wedding-couple-dancing.webp" class="d-block w-100" loading="lazy" alt="Mariés en train de danser">
 			</div>
 		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Previous">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			<span class="visually-hidden">Previous</span>
 		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-label="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="visually-hidden">Next</span>
 		</button>
@@ -89,7 +89,7 @@
 </div>
 </header>
 <main>
-<section id="about">
+<section id="about" role="region" aria-labelledby="about-me">
 	<div class="picture left">
 		<img src="./assets/images/nina-carducci.webp" alt="Portrait de Nina Carducci">
 	</div>
@@ -114,8 +114,7 @@
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/woman-portrait.webp" alt="Portrait d'une femme"/>
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/live-concert-singer.webp" alt="Chanteur à un concert live"/>
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/office-woman-at-desk.webp" alt="Femme à son bureau"/>
-		</div>
-		
+		</div>	
 	</div>
 	<div class="quote">
 		<figure>
@@ -126,8 +125,8 @@
 		</figure>
 	</div>
 </section>
-<section id="services">
-	<h2 class="title">Mes services</h2>
+<section id="services" role="region" aria-labelledby="services">
+	<h2 class="title" id="services-title">Mes services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
